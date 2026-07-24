@@ -28,6 +28,10 @@ namespace HibaKovetoWpf.Views
             int osszes = 0;
             int nyitott = 0;
             int megoldva = 0;
+
+            NyitottHibakListBox.Items.Clear();
+
+
         }
         private void UjHibajegyButton_Click(object sender, RoutedEventArgs e)
         {
