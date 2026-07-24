@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HibaKovetoWpf.Services;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,6 +22,7 @@ namespace HibaKovetoWpf.Views
         public DashBoardPage()
         {
             InitializeComponent();
+            AdatokBetoltese();
         }
 
         public void AdatokBetoltese()
@@ -31,7 +33,32 @@ namespace HibaKovetoWpf.Views
 
             NyitottHibakListBox.Items.Clear();
 
+            foreach (var hiba in HibaTar.Hibajegyek)
+            {
+                osszes++;
+                if(hiba.Megoldva == true)
+                {
+                    megoldva++;
+                }
+                else
+                {
+                    nyitott++;
+                    NyitottHibakListBox.Items.Add(hiba);
+                }
+            }
 
+            OsszesText.Text = osszes.ToString();
+            NyitottText.Text = nyitott.ToString();
+            MegoldvaText.Text = megoldva.ToString();
+
+            int szazalek = 0;
+            if (osszes > 0)
+            {
+                szazalek = (megoldva * 100) / osszes;
+            }
+
+            MegoldottsagBar.Value = szazalek;
+            MegoldottsagText.Text = szazalek+"%";
         }
         private void UjHibajegyButton_Click(object sender, RoutedEventArgs e)
         {
