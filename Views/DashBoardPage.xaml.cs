@@ -22,5 +22,15 @@ namespace HibaKovetoWpf.Views
         {
             InitializeComponent();
         }
+
+        private void UjHibajegyButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OsszesHibajegyButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

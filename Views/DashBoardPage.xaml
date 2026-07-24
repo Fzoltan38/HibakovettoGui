@@ -63,5 +63,24 @@
             </Border>
         </Grid>
         
+        <!--Nyitott hibajegyek + navigáció-->
+        <Grid Grid.Row="2" Margin="24,10,24,24">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="220"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="White" CornerRadius="6" Padding="16" Margin="0,0,16,0">
+                <DockPanel>
+                    <TextBlock Text="Nyitott hibajegyek" FontSize="16" FontWeight="SemiBold" Foreground="Black" Margin="0,0,0,10"/>
+                    <ListBox x:Name="NyitottHibakListBox" BorderThickness="0"/>
+                </DockPanel>
+            </Border>
+
+            <StackPanel Grid.Column="1">
+                <Button x:Name="UjHibajegyButton" Background="Black" Foreground="White" Content="+ Új hibajegy" Margin="0,0,0,10" Click="UjHibajegyButton_Click"/>
+                <Button x:Name="OsszesHibajegyButton" Background="DarkBlue" Foreground="White" Content="Összes hibajegy" Margin="0,0,0,10" Click="OsszesHibajegyButton_Click"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>
