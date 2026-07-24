@@ -20,3 +20,4 @@ C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\n
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\ref\HibaKovetoWpf.dll
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\DashBoardPage.g.cs
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\DashBoardPage.baml
+C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\HibaKovetoWpf.sourcelink.json
