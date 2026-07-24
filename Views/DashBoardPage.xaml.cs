@@ -23,6 +23,12 @@ namespace HibaKovetoWpf.Views
             InitializeComponent();
         }
 
+        public void AdatokBetoltese()
+        {
+            int osszes = 0;
+            int nyitott = 0;
+            int megoldva = 0;
+        }
         private void UjHibajegyButton_Click(object sender, RoutedEventArgs e)
         {
 
