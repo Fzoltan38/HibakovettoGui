@@ -72,7 +72,7 @@
 
             <Border Grid.Column="0" Background="White" CornerRadius="6" Padding="16" Margin="0,0,16,0">
                 <DockPanel>
-                    <TextBlock Text="Nyitott hibajegyek" FontSize="16" FontWeight="SemiBold" Foreground="Black" Margin="0,0,0,10"/>
+                    <TextBlock Text="Nyitott hibajegyek" DockPanel.Dock="Top" FontSize="16" FontWeight="SemiBold" Foreground="Black" Margin="0,0,0,10"/>
                     <ListBox x:Name="NyitottHibakListBox" BorderThickness="0"/>
                 </DockPanel>
             </Border>
