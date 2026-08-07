@@ -53,8 +53,8 @@
                 <TextBlock x:Name="HibaText" Foreground="Red" Margin="0,12" Visibility="Collapsed"/>
 
                 <StackPanel Orientation="Horizontal" Margin="0,20">
-                    <Button x:Name="MentesGomb" Content="Mentés" Background="Blue" Foreground="White"/>
-                    <Button x:Name="MegseGomb" Content="Mégse" Background="Gray" Foreground="White" Margin="10,0,0,0"/>
+                    <Button x:Name="MentesGomb" Content="Mentés" Background="Blue" Foreground="White" Click="MentesGomb_Click"/>
+                    <Button x:Name="MegseGomb" Content="Mégse" Background="Gray" Foreground="White" Margin="10,0,0,0" Click="MegseGomb_Click"/>
                 </StackPanel>
                 
             </StackPanel>
