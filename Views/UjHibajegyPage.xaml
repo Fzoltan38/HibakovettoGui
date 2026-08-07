@@ -48,6 +48,14 @@
                     <ComboBoxItem Content="Kritikus"/>
                 </ComboBox>
 
+                <CheckBox x:Name="SurgosCheckBox" Content="Azonnali beavatkozást igényel" Margin="0,16"/>
+
+                <TextBlock x:Name="HibaText" Foreground="Red" Margin="0,12" Visibility="Collapsed"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,20">
+                    <Button x:Name="MentesGomb" Content="Mentés" Background="Blue" Foreground="White"/>
+                    <Button x:Name="MegseGomb" Content="Mégse" Background="Gray" Foreground="White" Margin="10,0,0,0"/>
+                </StackPanel>
             </StackPanel>
         </Border>
     </Grid>
