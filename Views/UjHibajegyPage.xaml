@@ -23,8 +23,31 @@
 
         <Border Grid.Row="1" Background="White" CornerRadius="6" Margin="24" Padding="24" VerticalAlignment="Top">
             <StackPanel MaxWidth="520">
-                <Label Content="Cím"/>
                 
+                <Label Content="Cím"/>
+                <TextBox x:Name="CimBox"/>
+
+                <Label Content="Leírás" Margin="0,12"/>
+                <TextBox x:Name="LeirasBox" Height="90" VerticalScrollBarVisibility="Auto"/>
+
+                <Label Content="Komponens" Margin="0,12"/>
+                
+                <ComboBox x:Name="KomponensCombo">
+                    <ComboBoxItem Content="UI" IsSelected="True"/>
+                    <ComboBoxItem Content="Backend"/>
+                    <ComboBoxItem Content="Adatbázis"/>
+                    <ComboBoxItem Content="Hálózat"/>
+                </ComboBox>
+
+                <Label Content="Súlyosság" Margin="0,12"/>
+                
+                <ComboBox x:Name="SulyossagCombo">
+                    <ComboBoxItem Content="Alacsony" IsSelected="True"/>
+                    <ComboBoxItem Content="Közepes"/>
+                    <ComboBoxItem Content="Magas"/>
+                    <ComboBoxItem Content="Kritikus"/>
+                </ComboBox>
+
             </StackPanel>
         </Border>
     </Grid>
