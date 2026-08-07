@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HibaKovetoWpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e1819d1792c458d293ff6a24e22b62191545ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2775a9a54722efac49d8e7ab2b401537756f7d36")]
 [assembly: System.Reflection.AssemblyProductAttribute("HibaKovetoWpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HibaKovetoWpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
