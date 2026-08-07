@@ -10,5 +10,18 @@
 
     <Grid>
         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Fejléc-->
+        <Border Grid.Row="0" Background="Black" Padding="24,18">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Új hibajegy felvétele" FontSize="22" FontWeight="Bold" Foreground="White"/>
+            </StackPanel>
+        </Border>
+        
+
     </Grid>
 </Page>
