@@ -5,7 +5,6 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:HibaKovetoWpf.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
       Title="Új hibajegy" Background="AliceBlue">
 
     <Grid>
@@ -21,7 +20,12 @@
                 <TextBlock Text="Új hibajegy felvétele" FontSize="22" FontWeight="Bold" Foreground="White"/>
             </StackPanel>
         </Border>
-        
 
+        <Border Grid.Row="1" Background="White" CornerRadius="6" Margin="24" Padding="24" VerticalAlignment="Top">
+            <StackPanel MaxWidth="520">
+                <Label Content="Cím"/>
+                
+            </StackPanel>
+        </Border>
     </Grid>
 </Page>
