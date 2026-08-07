@@ -62,7 +62,7 @@ namespace HibaKovetoWpf.Views
         }
         private void UjHibajegyButton_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new UjHibajegyPage());
         }
 
         private void OsszesHibajegyButton_Click(object sender, RoutedEventArgs e)

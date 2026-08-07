@@ -56,6 +56,7 @@
                     <Button x:Name="MentesGomb" Content="Mentés" Background="Blue" Foreground="White"/>
                     <Button x:Name="MegseGomb" Content="Mégse" Background="Gray" Foreground="White" Margin="10,0,0,0"/>
                 </StackPanel>
+                
             </StackPanel>
         </Border>
     </Grid>
