@@ -67,7 +67,7 @@ namespace HibaKovetoWpf.Views
 
         private void OsszesHibajegyButton_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new HibaListaPage());
         }
     }
 }

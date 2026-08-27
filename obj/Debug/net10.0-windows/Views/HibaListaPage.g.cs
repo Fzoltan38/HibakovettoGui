@@ -132,7 +132,7 @@ namespace HibaKovetoWpf.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HibaKovetoWpf;V1.0.0.0;component/views/hibalistapage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HibaKovetoWpf;component/views/hibalistapage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\HibaListaPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

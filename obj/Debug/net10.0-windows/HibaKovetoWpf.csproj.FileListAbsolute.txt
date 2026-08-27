@@ -23,3 +23,5 @@ C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\n
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\HibaKovetoWpf.sourcelink.json
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\UjHibajegyPage.g.cs
 C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\UjHibajegyPage.baml
+C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\HibaListaPage.baml
+C:\Users\zoli\Desktop\2025_2026\CSharpOktav\Tan3\C#Wpf\HibaKovetoWpf\obj\Debug\net10.0-windows\Views\HibaListaPage.g.cs
